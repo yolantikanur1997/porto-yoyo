@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <meta name="description"
+        content="Desainer & Developer Profesional. Spesialisasi dalam menciptakan pengalaman digital yang bersih dan modern.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Yoyo.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Expertise</a>
+                <a href="#portfolio">Works</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact" class="btn-nav">Contact</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Available for freelance & remote work</span>
+                <h1>Software Engineer
+                    <!-- <br>& <span class="accent-text">Full-Stack Developer</span> -->
+                </h1>
+                <p class="hero-sub">Membangun solusi software yang scalable, efisien, dan berorientasi pada
+                    hasil. Mengubah ide kompleks menjadi aplikasi yang powerful dan user-friendly.</p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="btn btn-primary">Lihat Portofolio</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+                <!-- <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">5+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">20+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="hero-visual">
+                <div class="abstract-shape shape-1"></div>
+                <div class="abstract-shape shape-2"></div>
+                <div class="abstract-shape shape-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-desc">
+                     Halo! Saya Yoyo, seorang Software Engineer berbasis di Indonesia, dengan pengalaman membangun dan mengelola
+    aplikasi end-to-end yang robust, scalable, dan user-centric.
+                </p>
+                <p class="about-desc">
+                     Fokus utama saya adalah menulis clean code, mengoptimalkan performa, serta merancang arsitektur software yang
+                    maintainable. Saya percaya bahwa software yang baik tidak hanya tentang fitur, tetapi juga tentang efisiensi,
+                            keandalan, dan nilai yang diberikan kepada pengguna.
+                </p>
+                <ul class="about-highlights">
+                    <li><i class="fas fa-check-circle"></i> Problem Solver</li>
+                    <li><i class="fas fa-check-circle"></i> Clean Code Enthusiast</li>
+                    <li><i class="fas fa-check-circle"></i> Scalable Architecture</li>
+                    <li><i class="fas fa-check-circle"></i> Performance Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Expertise</h2>
+                <p class="section-subtitle">Keahlian teknis dan kreatif yang saya tawarkan.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend Development</h3>
+                    <p>Membangun RESTful API, microservices, dan server-side logic yang robust menggunakan Laravel dan
+                        CodeIgniter. Menangani autentikasi, otorisasi, pemrosesan data, integrasi sistem third-party,
+                        dan optimisasi performa backend.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Membangun aplikasi web modern dan responsif dengan HTML5, CSS3, JavaScript, Bootstrap, dan
+                        jQuery. Mengimplementasikan UI/UX yang intuitif, animasi interaktif, optimisasi performa
+                        frontend, dan memastikan cross-browser compatibility untuk pengalaman pengguna yang optimal.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database & DevOps</h3>
+                    <p>Mengelola dan merancang database relasional (MySQL, PostgreSQL) dan NoSQL (MongoDB) dengan fokus
+                        pada optimisasi query, indexing, dan backup strategy. Implementasi CI/CD pipeline, deployment
+                        automation, monitoring sistem, dan pengelolaan cloud infrastructure di AWS untuk memastikan
+                        aplikasi berjalan stabil dan scalable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Selected Works</h2>
+                <p class="section-subtitle">Proyek terbaik yang pernah saya kerjakan.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-1">
+                            <img src="images/porto/temudi.png" alt="Temudi" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://temudi.com" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Temudi</h3>
+                        <span class="portfolio-cat">Full-Stack • Laravel</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-2">
+                            <img src="images/porto/variatools.png" alt="Variatools" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://variatools.com" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Variatools</h3>
+                        <span class="portfolio-cat">Full-Stack</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-2">
+                            <img src="images/porto/hros.png" alt="HROS" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://hros.cloud/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>HROS</h3>
+                        <span class="portfolio-cat">Full-Stack • Laravel • API</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-2">
+                            <img src="images/porto/crm.png" alt="CRM" loading="lazy">
+                        </div>
+                        <!-- <div class="portfolio-overlay">
+                            <a href="" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div> -->
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>CRM</h3>
+                        <span class="portfolio-cat">Full-Stack • Laravel</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/pwa sahabat.png" alt="PWA" loading="lazy">
+                        </div>
+                        <!-- <div class="portfolio-overlay">
+                            <a href="https://nusabotanicals.com/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div> -->
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>PWA</h3>
+                        <span class="portfolio-cat">Full-Stack • OneSignal</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/letsee.png" alt="Letsee" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://letsee.indoskyware.com/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Letsee</h3>
+                        <span class="portfolio-cat">Full-Stack • Laravel • API</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/rab.png" alt="Flex CV" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://flexcv.hros.cloud/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Flex CV</h3>
+                        <span class="portfolio-cat">Full-Stack • Laravel</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/rab.png" alt="Flex CV" loading="lazy">
+                        </div>
+                        <!-- <div class="portfolio-overlay">
+                            <a href="https://flexcv.hros.cloud/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div> -->
+                    </div>
+                    <div class="portfolio-info">
+                       <h3>Aplikasi Sistem Informasi Rancangan Anggaran Biaya (RAB)</h3>
+                        <span class="portfolio-cat">Full-Stack • Laravel</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/nusabotanical.png" alt="Nusabotanical" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://nusabotanicals.com/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Nusabotanical</h3>
+                        <span class="portfolio-cat">Wordpress • Woocommerce</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/kratodile.png" alt="Kratodile" loading="lazy">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://kratodile.com/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Kratodile</h3>
+                        <span class="portfolio-cat">Wordpress • Woocommerce</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/arisma erp.png" alt="ERP" loading="lazy">
+                        </div>
+                        <!-- <div class="portfolio-overlay">
+                            <a href="https://kratodile.com/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div> -->
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>ERP</h3>
+                        <span class="portfolio-cat">Full-Stack • Codeigniter</span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <div class="thumb-placeholder color-3">
+                            <img src="images/porto/abhaya.png" alt="Abhaya" loading="lazy">
+                        </div>
+                        <!-- <div class="portfolio-overlay">
+                            <a href="https://kratodile.com/" target="_blank" class="view-btn">Lihat Detail</a>
+                        </div> -->
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Abhaya</h3>
+                        <span class="portfolio-cat">Full-Stack • Filament</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">Perjalanan karir dan pengalaman profesional saya.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <span class="company">PT Kreasi Digital Prima</span>
+                        <p>Merupakan anggota dalam tim pengembang yang bertanggung jawab untuk merancang,
+                            mengembangkan, dan memelihara sistem ERP, HR dan POS menggunakan PHP Codeigniter dan
+                            Laravel.
+                            Mengimplementasikan logika bisnis, pemrosesan data, dan integrasi dengan basis data MySQL
+                            menggunakan bahasa pemrograman PHP dan Framework Codeigniter & Laravel.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Web Developer</h3>
+                        <span class="company">PT Kreasi Digital Prima</span>
+                        <p>Merancang dan mengembangkan tema kustom WordPress untuk situs e-commerce dengan desain modern
+                            dan responsif. Mengintegrasikan payment gateway pihak ketiga dan mengelola sistem produk,
+                            pesanan, serta inventaris. Melakukan optimisasi performa melalui image optimization,
+                            caching, dan kompresi untuk meningkatkan kecepatan loading. Memperkuat keamanan website
+                            dengan implementasi best practices, pembaruan rutin, dan proteksi terhadap serangan cyber.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2019 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Instructor</h3>
+                        <span class="company">Pusat Ilmu Komputer (Pusilkom)</span>
+                        <p>Mengembangkan dan menyampaikan pelatihan intensif Microsoft Excel dari tingkat dasar hingga
+                            advanced (VLOOKUP, HLOOKUP, Pivot Tables). Merancang dan mengajar kelas interaktif web
+                            development menggunakan HTML, CSS, dan JavaScript, serta membimbing peserta dalam membuat
+                            website sederhana dan responsif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (Optional) -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="quote-text">"Sangat memuaskan, baik secara komunikasi, cepat tanggap dan hasil."</p>
+                    <div class="client-info">
+                        <h4>Jovian Sandero</h4>
+                        <!-- <span>Owner, Nusabotanical</span> -->
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="quote-text">"Sangat sabar dan profesional dalam menangani berbagai revisi yang kami minta.
+                        Terus bekerja dengan dedikasi tinggi hingga hasil akhir benar-benar sesuai ekspektasi kami."</p>
+                    <div class="client-info">
+                        <h4>Beny</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Punya Ide Project Menarik?</h2>
+                <p>Mari kita diskusikan bagaimana saya bisa membantu mewujudkan visi Anda menjadi produk digital yang
+                    luar biasa.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Mari Bekerja Sama</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-desc">Saya selalu terbuka untuk diskusi project baru atau sekadar menyapa. Hubungi
+                    saya melalui:</p>
+
+                <div class="contact-methods">
+                    <a href="mailto:yolantikannur@gmail.com" class="contact-method">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>yolantikannur@gmail.com</p>
+                        <span class="method-cta">Kirim Email <i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://wa.me/6289694612922" target="_blank" class="contact-method">
+                        <div class="method-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>+62 896 9461 2922</p>
+                        <span class="method-cta">Chat di WhatsApp <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+
+                <div class="social-links-contact">
+                    <p>Atau ikuti saya di:</p>
+                    <div class="social-icons-row">
+                        <a href="https://linkedin.com/in/yolantika-nur/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/yolantikanur1997" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">Yoyo.</span>
+                <p>&copy; <span id="year">2023</span> All Rights Reserved.</p>
+            </div>
+            <!-- <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div> -->
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
